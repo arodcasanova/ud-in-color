@@ -31,9 +31,7 @@ const NavigationWithModalitySetter = ({
     <p style={{ marginBottom: '2rem' }}>
       Reading Level: {readingLevel || 'not set'}
     </p>
-    <p style={{ marginBottom: '1rem' }}>
-      Set reading level
-    </p>
+    <p style={{ marginBottom: '1rem' }}>Set Media Type</p>
     {feedbackPhase === 'MEDIA_TYPE' && (
       <>
         <ButtonWithStyle
@@ -99,15 +97,24 @@ const App = () => {
           setFeedbackPhase={setFeedbackPhase}
         />
       </HeaderWithShadow>
-      <section>
-        <SectionOneContent />
-      </section>
-      <SectionWithGreyBackground>
-        <SectionOneContent />
-      </SectionWithGreyBackground>
-      <section>
-        <SectionOneContent />
-      </section>
+      {mediaType === 'audio' ? (
+        <section>
+          {' '}
+          <h1 margin>Audio Content</h1>
+        </section>
+      ) : (
+        <>
+          <section>
+            <SectionOneContent />
+          </section>
+          <SectionWithGreyBackground>
+            <SectionOneContent />
+          </SectionWithGreyBackground>
+          <section>
+            <SectionOneContent />
+          </section>
+        </>
+      )}
     </BoundedCenteringContainer>
   )
 }
