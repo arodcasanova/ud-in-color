@@ -1,122 +1,42 @@
 [
   {
-    "id": "chapter1",
-    "title": "1. Introduction to Human-Centered Design",
+    "id": "section1",
+    "title": "Are My Students Engaged?",
     "image": {
       "path": "https://picsum.photos/700/800",
-      "altText": ""
+      "altText": "Alt text for image"
     },
-    "voice1": {
-      "summary": "Human-centered design (HCD) focuses on designing products that meet the needs of users. This chapter introduces the core principles and the importance of empathy in the design process.",
-      "full": "Human-centered design (HCD) is an approach to problem-solving that puts the needs, desires, and limitations of end users at the forefront of every step of the design process. It emphasizes empathy, understanding, and iterative testing. This chapter delves into the foundational principles of HCD, highlighting the importance of understanding the user’s context and experiences. By engaging with users through interviews, observations, and participatory design sessions, designers can uncover insights that lead to innovative solutions. This empathetic approach ensures that the final product is not only functional but also resonates deeply with its users, thereby fostering satisfaction and loyalty. The chapter also discusses common methods and tools used in HCD, such as personas, journey maps, and usability testing, providing a comprehensive overview of how to implement these strategies effectively."
-    }
-  },
-  {
-    "id": "chapter2",
-    "title": "2. Understanding User Needs",
-    "image": {
-      "path": "https://picsum.photos/800/900",
-      "altText": ""
-    },
-    "voice1": {
-      "summary": "This chapter explores techniques for understanding user needs, such as user interviews and surveys. It emphasizes the importance of empathy and active listening in gathering valuable insights.",
-      "full": "Understanding user needs is a critical step in the human-centered design process. This chapter covers various techniques for gathering insights, including user interviews, surveys, and observational studies. Through these methods, designers can gain a deep understanding of the challenges and desires that users face. Empathy plays a crucial role in this process, as it allows designers to step into the users' shoes and see the world from their perspective. Active listening and open-ended questioning are essential skills for conducting effective interviews. The chapter also discusses how to synthesize the collected data to identify patterns and key insights that inform the design process. By prioritizing user needs and involving them throughout the design journey, designers can create solutions that are not only effective but also meaningful and impactful for the end users."
-    }
-  },
-  {
-    "id": "chapter3",
-    "title": "3. Prototyping and Testing",
-    "image": {
-      "path": "https://picsum.photos/700/800",
-      "altText": ""
-    },
-    "voice1": {
-      "summary": "Prototyping is a key step in HCD, allowing designers to test ideas quickly. This chapter discusses different prototyping methods and the importance of iterative testing with users.",
-      "full": "Prototyping and testing are essential components of the human-centered design process. This chapter explores the various methods of prototyping, from low-fidelity sketches and paper prototypes to high-fidelity digital models. The goal of prototyping is to quickly visualize and test ideas, allowing designers to identify and address issues early in the development process. Iterative testing with users is crucial, as it provides valuable feedback that guides refinements and improvements. The chapter emphasizes the importance of creating an environment where users feel comfortable sharing honest feedback. Techniques such as usability testing, A/B testing, and heuristic evaluations are discussed in detail. By embracing a cycle of prototyping, testing, and refining, designers can ensure that the final product is both user-friendly and effective. This iterative approach helps in reducing risks, saving time and resources, and ultimately leading to a product that truly meets the needs of its users."
-    }
-  },
-  {
-    "id": "chapter4",
-    "title": "4. Social Justice in HCD",
-    "image": {
-      "path": "https://picsum.photos/700/800",
-      "altText": ""
-    },
-    "voice1": {
-      "summary": "Social justice in HCD involves creating equitable and inclusive designs. This chapter explores how to address systemic inequalities and promote fairness in technology.",
-      "full": "Social justice in human-centered design (HCD) focuses on creating technologies that promote equity and inclusion. This chapter discusses the importance of recognizing and addressing systemic inequalities in the design process. By understanding the diverse backgrounds and experiences of users, designers can create solutions that cater to marginalized and underserved communities. The chapter explores methods for incorporating social justice principles into HCD, such as participatory design and community engagement. It highlights case studies where social justice-driven design has led to positive outcomes, ensuring that technology serves as a tool for empowerment rather than exclusion. By prioritizing fairness and equity, designers can contribute to a more just and inclusive society through their work."
-    }
-  },
-  {
-    "id": "chapter5",
-    "title": "5. Crip Theory and HCD",
-    "image": {
-      "path": "https://picsum.photos/800/900",
-      "altText": ""
-    },
-    "voice1": {
-      "summary": "Crip theory challenges normative ideas about disability. This chapter examines how Crip theory can inform HCD to create more inclusive technologies.",
-      "full": "Crip theory, emerging from disability studies, challenges normative assumptions about disability and embraces the diversity of human bodies and minds. This chapter explores how Crip theory can be applied to human-centered design (HCD) to create more inclusive and accessible technologies. By questioning the dominant narratives around ability and normalcy, designers can better understand the experiences of disabled users and design products that meet their needs. The chapter discusses practical strategies for integrating Crip theory into the design process, such as inclusive user research, accessibility audits, and co-design with disabled individuals. By valuing diverse perspectives and challenging ableist assumptions, designers can create technologies that empower all users, regardless of their abilities."
-    }
-  },
-  {
-    "id": "chapter6",
-    "title": "6. Sins Invalid's 10 Principles in HCD",
-    "image": {
-      "path": "https://picsum.photos/700/800",
-      "altText": ""
-    },
-    "voice1": {
-      "summary": "Sins Invalid's 10 Principles of Disability Justice provide a framework for inclusive design. This chapter explores how these principles can be integrated into HCD.",
-      "full": "Sins Invalid, a disability justice performance project, outlines 10 principles of disability justice that provide a framework for creating inclusive and equitable designs. This chapter delves into each of these principles and examines how they can be applied to human-centered design (HCD). The principles include intersectionality, leadership of those most impacted, anti-capitalist politics, cross-movement solidarity, recognizing wholeness, sustainability, commitment to cross-disability solidarity, interdependence, collective access, and collective liberation. By integrating these principles into the design process, designers can ensure that their products are not only accessible but also support the broader goals of disability justice. The chapter provides practical examples and case studies to illustrate how these principles can guide design decisions and promote a more inclusive and just approach to technology."
-    }
-  },
-  {
-    "id": "chapter7",
-    "title": "7. The Social Model of Disability in HCD",
-    "image": {
-      "path": "https://picsum.photos/700/800",
-      "altText": ""
-    },
-    "voice1": {
-      "summary": "The social model of disability shifts the focus from individual impairments to societal barriers. This chapter discusses its implications for HCD.",
-      "full": "The social model of disability posits that disability arises not from individual impairments but from societal barriers that prevent full participation. This chapter explores the implications of the social model for human-centered design (HCD). By recognizing that many of the challenges faced by disabled individuals are the result of inaccessible environments and discriminatory attitudes, designers can focus on removing these barriers through inclusive design practices. The chapter discusses how to apply the social model in HCD, from conducting barrier-free user research to designing products that accommodate a wide range of abilities. By adopting the social model, designers can create technologies that promote inclusion and empower disabled users to engage fully with their environments."
-    }
-  },
-  {
-    "id": "chapter8",
-    "title": "8. Feminist Principles in HCD",
-    "image": {
-      "path": "https://picsum.photos/700/800",
-      "altText": ""
-    },
-    "voice1": {
-      "summary": "Feminist principles in HCD emphasize equity, inclusivity, and challenging power dynamics. This chapter explores how to integrate these principles into design.",
-      "full": "Feminist principles in human-centered design (HCD) emphasize equity, inclusivity, and the importance of challenging power dynamics. This chapter explores how feminist theory can inform the design process to create technologies that address the needs of all users, particularly those who have been historically marginalized. Feminist principles advocate for participatory design methods that involve users in every stage of the design process, ensuring that their voices and experiences are central to the development of solutions. The chapter discusses practical strategies for integrating feminist principles into HCD, such as inclusive research methods, equitable design practices, and critical reflection on power and privilege. By applying these principles, designers can create technologies that not only meet the needs of diverse users but also contribute to social change and justice."
-    }
-  },
-  {
-    "id": "chapter9",
-    "title": "9. Participatory Design and Social Justice",
-    "image": {
-      "path": "https://picsum.photos/700/800",
-      "altText": ""
-    },
-    "voice1": {
-      "summary": "Participatory design involves users in the design process. This chapter explores its role in promoting social justice and creating equitable technologies.",
-      "full": "Participatory design is a methodology that involves users directly in the design process, ensuring that their needs and perspectives shape the final product. This chapter examines the role of participatory design in promoting social justice and creating equitable technologies. By engaging users from marginalized communities, designers can uncover unique insights and co-create solutions that address specific challenges and barriers. The chapter discusses various participatory design methods, such as workshops, focus groups, and co-design sessions, and provides guidance on how to implement these methods effectively. Case studies illustrate how participatory design has led to more inclusive and just outcomes, highlighting the importance of user involvement in creating technologies that serve diverse populations."
-    }
-  },
-  {
-    "id": "chapter10",
-    "title": "10. Intersectionality in HCD",
-    "image": {
-      "path": "https://picsum.photos/700/800",
-      "altText": ""
-    },
-    "voice1": {
-      "summary": "Intersectionality recognizes the interconnected nature of social categorizations. This chapter explores its importance in HCD and inclusive design.",
-      "full": "Intersectionality is a framework for understanding how various social categorizations, such as race, gender, class, and disability, intersect to create overlapping systems of discrimination or disadvantage. This chapter explores the importance of intersectionality in human-centered design (HCD) and inclusive design. By considering the multiple identities and experiences of users, designers can create more nuanced and effective solutions. The chapter discusses how to apply intersectional thinking in the design process, from user research to prototyping and testing. It highlights the importance of engaging with diverse user groups and considering the complex ways in which different forms of oppression interact. By embracing intersectionality, designers can ensure that their products are more inclusive and equitable, addressing the needs of all users."
+    "voices": {
+      "suzanne": {
+        "full": [
+          {
+            "subsectionTitle": "Equity",
+            "subsectionText": "In the heart of a bustling city, amidst the noise and chaos, stood a small, tranquil park. Its vibrant flowers and towering trees offered a sanctuary for those seeking solace. Children’s laughter echoed through the air, while elders reminisced on benches, creating a tapestry of life and serenity."
+          },
+          {
+            "subsectionTitle": "Research",
+            "subsectionText": "In the heart of a bustling city, amidst the noise and chaos, stood a small, tranquil park. Its vibrant flowers and towering trees offered a sanctuary for those seeking solace. Children’s laughter echoed through the air, while elders reminisced on benches, creating a tapestry of life and serenity."
+          },
+          {
+            "subsectionTitle": "Problem",
+            "subsectionText": "In the heart of a bustling city, amidst the noise and chaos, stood a small, tranquil park. Its vibrant flowers and towering trees offered a sanctuary for those seeking solace. Children’s laughter echoed through the air, while elders reminisced on benches, creating a tapestry of life and serenity."
+          },
+          {
+            "subsectionTitle": "Solution",
+            "subsectionText": "In the heart of a bustling city, amidst the noise and chaos, stood a small, tranquil park. Its vibrant flowers and towering trees offered a sanctuary for those seeking solace. Children’s laughter echoed through the air, while elders reminisced on benches, creating a tapestry of life and serenity."
+          }
+        ],
+        "plainLanguage": [
+          {
+            "subsectionTitle": "Being Kind",
+            "subsectionText": "In the busy city, there was a little park. It had pretty flowers and big trees. People liked to come and play. Kids laughed and ran around. Old people sat on benches and talked. It was a happy, quiet place where everyone smiled."
+          },
+          {
+            "subsectionTitle": "Making Friends",
+            "subsectionText": "In the busy city, there was a little park. It had pretty flowers and big trees. People liked to come and play. Kids laughed and ran around. Old people sat on benches and talked. It was a happy, quiet place where everyone smiled."
+          }
+        ]
+      }
     }
   }
 ]

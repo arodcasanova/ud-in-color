@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import styled from 'styled-components'
 
 const HeaderWithShadow = styled.header`
@@ -46,6 +47,28 @@ export const HeaderWithContentControls = ({
         max: maxContentPosition - 1,
       }),
     }))
+
+  // keyboard control
+  useEffect(() => {
+    const handleKeyDown = (event) => {
+      switch (event.key) {
+        case 'ArrowRight':
+          incrementContentPosition()
+          break
+        case 'ArrowLeft':
+          decrementContentPosition()
+          break
+        default:
+          break
+      }
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [])
 
   return (
     <HeaderWithShadow>

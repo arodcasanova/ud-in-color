@@ -15,7 +15,7 @@ const App = () => {
   const [contentIndex, setContentIndex] = useState({
     position: 0,
     verbosity: 'full',
-    voice: 'voice1',
+    voice: 'suzanne',
   })
 
   const contentData = CONTENT_REPO[contentIndex.position]
@@ -29,6 +29,7 @@ const App = () => {
       <MainContentWithArticle
         contentIndex={contentIndex}
         contentData={contentData}
+        setContentIndex={setContentIndex}
       />
     </BoundedCenteringContainer>
   )
