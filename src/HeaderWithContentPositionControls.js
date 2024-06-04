@@ -21,6 +21,7 @@ const boundWithin = ({ value, min, max }) => {
 export const HeaderWithContentControls = ({
   maxContentPosition,
   setContentIndex,
+  focusOnTitleRef,
 }) => {
   const resetContentPosition = useCallback(
     () =>
@@ -82,7 +83,10 @@ export const HeaderWithContentControls = ({
   return (
     <HeaderWithShadow>
       <NavWithHorizontalLayoutAndNarrowPadding>
-        <button style={{ marginRight: '4rem' }} onClick={resetContentPosition}>
+        <button
+          style={{ marginRight: '4rem' }}
+          onClick={resetContentPosition}
+        >
           UD
         </button>
         <button

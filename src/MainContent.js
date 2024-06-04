@@ -1,5 +1,6 @@
 import { useCallback } from 'react'
 import styled from 'styled-components'
+import { VoiceSelector } from 'VoiceSelector'
 import { VerbosityToggle } from 'VerbosityToggle'
 
 const ContentTitle = styled.h1`
@@ -53,17 +54,35 @@ export const MainContentWithArticle = ({
   contentData,
   setContentIndex,
 }) => {
-  const { voice: contentVoice, verbosity: contentVerbosity } = contentIndex
+  const {
+    voice: contentVoice,
+    verbosity: contentVerbosity,
+  } = contentIndex
   const contentTitle = contentData.title
-  const contentText = contentData.voices[contentVoice][contentVerbosity]
-  const { path: contentImagePath, altText: contentImageAltText } =
-    contentData.image
+  const contentText =
+    contentData.voices[contentVoice][contentVerbosity]
+  const {
+    path: contentImagePath,
+    altText: contentImageAltText,
+  } = contentData.image
 
   const togglePlainLanguage = useCallback(
     () =>
       setContentIndex((prev) => ({
         ...prev,
-        verbosity: prev.verbosity === 'full' ? 'plainLanguage' : 'full',
+        verbosity:
+          prev.verbosity === 'full'
+            ? 'plainLanguage'
+            : 'full',
+      })),
+    [setContentIndex]
+  )
+
+  const chooseVoice = useCallback(
+    (voice) =>
+      setContentIndex((prev) => ({
+        ...prev,
+        voice: voice,
       })),
     [setContentIndex]
   )
@@ -71,20 +90,37 @@ export const MainContentWithArticle = ({
   return (
     <main>
       <article>
-        <ContentTitle>{contentTitle}</ContentTitle>
-        <ContentControlsContainer>
-          <VerbosityToggle togglePlainLanguage={togglePlainLanguage} />
+        <ContentTitle aria-live="polite">
+          {contentTitle}
+        </ContentTitle>
+        <ContentControlsContainer
+          role="region"
+          aria-label="Content Toolbar"
+        >
+          <VoiceSelector chooseVoice={chooseVoice} />
+          <VerbosityToggle
+            togglePlainLanguage={togglePlainLanguage}
+          />
         </ContentControlsContainer>
         <ContentContainer>
           <ContentTextContainer>
-            {contentText.map(({ subsectionTitle, subsectionText }) => (
-              <ContentSection key={subsectionTitle}>
-                <ContentHeader>{subsectionTitle}</ContentHeader>
-                <ContentText>{subsectionText}</ContentText>
-              </ContentSection>
-            ))}
+            {contentText.map(
+              ({ subsectionTitle, subsectionText }) => (
+                <ContentSection key={subsectionTitle}>
+                  <ContentHeader>
+                    {subsectionTitle}
+                  </ContentHeader>
+                  <ContentText>
+                    {subsectionText}
+                  </ContentText>
+                </ContentSection>
+              )
+            )}
           </ContentTextContainer>
-          <ContentImage src={contentImagePath} alt={contentImageAltText} />
+          <ContentImage
+            src={contentImagePath}
+            alt={contentImageAltText}
+          />
         </ContentContainer>
       </article>
     </main>

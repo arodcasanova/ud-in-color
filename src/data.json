@@ -40,6 +40,74 @@
             "subsectionText": "But here's the thing: teachers can't control stuff like budgets or curriculum. And it's not easy for them. Plus, classrooms are getting even more diverse with students from all over and all kinds of abilities. So, teachers have to get creative with what they've got. They often rely on free stuff they find online, but it's not always good quality. That's where this resource comes in. It's like a helpful guide for teachers. It talks about why making materials accessible is so important and gives them ways to do it without spending much money. Plus, it covers a new rule that says all schools have to make sure their online stuff is accessible by 2026."
           }
         ]
+      },
+      "monique": {
+        "full": [
+          {
+            "subsectionTitle": "Monique full section 1",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Research",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Problem",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Solution",
+            "subsectionText": "TODO"
+          }
+        ],
+        "plainLanguage": [
+          {
+            "subsectionTitle": "monique gist section 1r",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult?",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult for Teachers??",
+            "subsectionText": "TODO"
+          }
+        ]
+      },
+      "rohan": {
+        "full": [
+          {
+            "subsectionTitle": "rohan full section 1",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Research",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Problem",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Solution",
+            "subsectionText": "TODO"
+          }
+        ],
+        "plainLanguage": [
+          {
+            "subsectionTitle": "rohan gist section 2",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult?",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult for Teachers??",
+            "subsectionText": "TODO"
+          }
+        ]
       }
     }
   },
@@ -52,6 +120,74 @@
     },
     "voices": {
       "suzanne": {
+        "full": [
+          {
+            "subsectionTitle": "Suzanne full section 1",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Research",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Problem",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Solution",
+            "subsectionText": "TODO"
+          }
+        ],
+        "plainLanguage": [
+          {
+            "subsectionTitle": "Suzanne gist section 2",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult?",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult for Teachers??",
+            "subsectionText": "TODO"
+          }
+        ]
+      },
+      "monique": {
+        "full": [
+          {
+            "subsectionTitle": "Equity",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Research",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Problem",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Solution",
+            "subsectionText": "TODO"
+          }
+        ],
+        "plainLanguage": [
+          {
+            "subsectionTitle": "Access Makes Education Fair",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult?",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult for Teachers??",
+            "subsectionText": "TODO"
+          }
+        ]
+      },
+      "rohan": {
         "full": [
           {
             "subsectionTitle": "Equity",
@@ -96,6 +232,74 @@
     },
     "voices": {
       "suzanne": {
+        "full": [
+          {
+            "subsectionTitle": "Equity",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Research",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Problem",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Solution",
+            "subsectionText": "TODO"
+          }
+        ],
+        "plainLanguage": [
+          {
+            "subsectionTitle": "Access Makes Education Fair",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult?",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult for Teachers??",
+            "subsectionText": "TODO"
+          }
+        ]
+      },
+      "monique": {
+        "full": [
+          {
+            "subsectionTitle": "Equity",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Research",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Problem",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Solution",
+            "subsectionText": "TODO"
+          }
+        ],
+        "plainLanguage": [
+          {
+            "subsectionTitle": "Access Makes Education Fair",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult?",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult for Teachers??",
+            "subsectionText": "TODO"
+          }
+        ]
+      },
+      "rohan": {
         "full": [
           {
             "subsectionTitle": "Equity",
