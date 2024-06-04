@@ -19,6 +19,11 @@ const ToggleContainer = styled.button`
     verbosity === 'full'
       ? GIST_UNSELECTED_STYLE
       : GIST_SELECTED_STYLE};
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    background-color: ${COLOR.primary100};
+  }
 `
 
 export const VerbosityToggle = ({
