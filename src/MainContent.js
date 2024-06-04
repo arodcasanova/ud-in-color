@@ -1,8 +1,10 @@
+import { useCallback } from 'react'
 import styled from 'styled-components'
 import { VerbosityToggle } from 'VerbosityToggle'
 
 const ContentTitle = styled.h1`
   font-size: 2rem;
+  font-weight: 500;
   margin-bottom: 1rem;
 `
 
@@ -17,17 +19,28 @@ const ContentText = styled.p`
 
 const ContentContainer = styled.div`
   display: flex;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 `
 
 const ContentSection = styled.section`
   margin-bottom: 2rem;
-  width: 20rem;
+  width: 100%;
+  height: auto;
+`
+
+const ContentTextContainer = styled.div`
+  min-width: 0;
+  width: 34rem;
+  margin-right: 3rem;
 `
 
 const ContentImage = styled.img`
-  height: 18rem;
-  margin-left: 3rem;
-  background-color: lightGrey;
+  min-width: 0;
+  width: 100%;
+  object-fit: contain;
+  object-position: left top;
 `
 
 const ContentControlsContainer = styled.div`
@@ -46,11 +59,14 @@ export const MainContentWithArticle = ({
   const { path: contentImagePath, altText: contentImageAltText } =
     contentData.image
 
-  const togglePlainLanguage = () =>
-    setContentIndex((prev) => ({
-      ...prev,
-      verbosity: prev.verbosity === 'full' ? 'plainLanguage' : 'full',
-    }))
+  const togglePlainLanguage = useCallback(
+    () =>
+      setContentIndex((prev) => ({
+        ...prev,
+        verbosity: prev.verbosity === 'full' ? 'plainLanguage' : 'full',
+      })),
+    [setContentIndex]
+  )
 
   return (
     <main>
@@ -60,14 +76,14 @@ export const MainContentWithArticle = ({
           <VerbosityToggle togglePlainLanguage={togglePlainLanguage} />
         </ContentControlsContainer>
         <ContentContainer>
-          <div>
+          <ContentTextContainer>
             {contentText.map(({ subsectionTitle, subsectionText }) => (
               <ContentSection key={subsectionTitle}>
                 <ContentHeader>{subsectionTitle}</ContentHeader>
                 <ContentText>{subsectionText}</ContentText>
               </ContentSection>
             ))}
-          </div>
+          </ContentTextContainer>
           <ContentImage src={contentImagePath} alt={contentImageAltText} />
         </ContentContainer>
       </article>

@@ -3,37 +3,129 @@
     "id": "section1",
     "title": "Are My Students Engaged?",
     "image": {
-      "path": "https://picsum.photos/700/800",
-      "altText": "Alt text for image"
+      "path": "https://drive.google.com/thumbnail?id=1DL9uIuswfI3l46abkipTtiNCBy2JQdW6&sz=w1000",
+      "altText": "Four Middle School students sit at a circular table and paint using tempera paint. The table is covered with paint trays, plastic cups with water, wooden models of fruit and blocks and paper."
     },
     "voices": {
       "suzanne": {
         "full": [
           {
             "subsectionTitle": "Equity",
-            "subsectionText": "In the heart of a bustling city, amidst the noise and chaos, stood a small, tranquil park. Its vibrant flowers and towering trees offered a sanctuary for those seeking solace. Children’s laughter echoed through the air, while elders reminisced on benches, creating a tapestry of life and serenity."
+            "subsectionText": "Offering accessible and inclusive content and material is an issue of equity. You likely have students in your classrooms with 504 plans or Individual Education Plans (IEP). As you well know, these documents hold you and your school legally accountable for providing accessible and inclusive instruction. Often, these documents specify how to modify or adjust content so that the student can successfully participate in the learning. In addition to students with 504 plans or IEP plans, a wide range of students will also benefit from adjustments or modifications to content and material. Considering the diverse access needs of all students in a classroom cultivates engagement and learning equity for every learner."
           },
           {
             "subsectionTitle": "Research",
-            "subsectionText": "In the heart of a bustling city, amidst the noise and chaos, stood a small, tranquil park. Its vibrant flowers and towering trees offered a sanctuary for those seeking solace. Children’s laughter echoed through the air, while elders reminisced on benches, creating a tapestry of life and serenity."
+            "subsectionText": "The importance of offering accessible content and material to meet students’ learning needs makes inherent sense. What is less clear is how to make this happen in a classroom setting. In a recent survey by Ender (2024), teachers reported a range of barriers that prohibit their ability to adjust or modify content to meet diverse learners’ needs. Standardized and rigid curriculum or a lack of funding or material were the most frequently reported issues. These issues were cited by teachers across geographic regions in the United States."
           },
           {
             "subsectionTitle": "Problem",
-            "subsectionText": "In the heart of a bustling city, amidst the noise and chaos, stood a small, tranquil park. Its vibrant flowers and towering trees offered a sanctuary for those seeking solace. Children’s laughter echoed through the air, while elders reminisced on benches, creating a tapestry of life and serenity."
+            "subsectionText": "Unfortunately, limited funding, limited material and rigid curriculum are issues that span way beyond teachers’ locus of control. These issues also impart significant stress and challenge to classroom teachers. Adding on is the fact that, more than ever before, classroom settings include learners with greater ranges in skills, abilities, cultures, languages, nationalities, and funds of knowledge. Despite restricted resources and budget cuts, current classroom settings currently include students with wider and more diverse learning needs than ever before."
           },
           {
             "subsectionTitle": "Solution",
-            "subsectionText": "In the heart of a bustling city, amidst the noise and chaos, stood a small, tranquil park. Its vibrant flowers and towering trees offered a sanctuary for those seeking solace. Children’s laughter echoed through the air, while elders reminisced on benches, creating a tapestry of life and serenity."
+            "subsectionText": "With little ability to purchase material or equipment to support learners, teachers must use low or no cost resources whenever possible. Many such resources can be found on the internet, however, quality and validity of these resources is not always evident. This resource is developed to offer a quality, research-based no cost tool to support classroom teachers on ways to promote access and engagement for all learners. This resource will explain how accessible content aligns with equity and inclusion and will also provide low or no cost ways to modify content to meet diverse learners’ needs. Finally, this resource highlights and addresses the recently formalized ruling that requires all public entities (such as public schools) include accessible content and material when offering resources or instruction on websites, social media, or any other technology mediums. This will take effect starting in 2026 for all schools across the United States."
           }
         ],
         "plainLanguage": [
           {
-            "subsectionTitle": "Being Kind",
-            "subsectionText": "In the busy city, there was a little park. It had pretty flowers and big trees. People liked to come and play. Kids laughed and ran around. Old people sat on benches and talked. It was a happy, quiet place where everyone smiled."
+            "subsectionTitle": "Access Makes Education Fair",
+            "subsectionText": "Making sure all students can access and engage with learning materials is really important for fairness. Some students might have special plans like a 504 or an Individual Education Plan (IEP) to help them learn better. These plans are like legal promises to make sure schools give them the right support. But it's not just those students who benefit; lots of students do. Imagine having a bunch of different learners in one class—different skills, backgrounds, languages. It's a lot! But it's important to help all of them learn."
           },
           {
-            "subsectionTitle": "Making Friends",
-            "subsectionText": "In the busy city, there was a little park. It had pretty flowers and big trees. People liked to come and play. Kids laughed and ran around. Old people sat on benches and talked. It was a happy, quiet place where everyone smiled."
+            "subsectionTitle": "Why is Access Difficult?",
+            "subsectionText": "Now, the tricky part is figuring out how to do this in class. Teachers have said it's tough because of things like strict lesson plans, not enough money for supplies, or not having the right stuff. And these problems aren't just in one place; they're everywhere in the U.S."
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult for Teachers??",
+            "subsectionText": "But here's the thing: teachers can't control stuff like budgets or curriculum. And it's not easy for them. Plus, classrooms are getting even more diverse with students from all over and all kinds of abilities. So, teachers have to get creative with what they've got. They often rely on free stuff they find online, but it's not always good quality. That's where this resource comes in. It's like a helpful guide for teachers. It talks about why making materials accessible is so important and gives them ways to do it without spending much money. Plus, it covers a new rule that says all schools have to make sure their online stuff is accessible by 2026."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "id",
+    "title": "How Do I Engage My Students?",
+    "image": {
+      "path": "https://drive.google.com/thumbnail?id=15CK6JKouz4NzO8Zyqh42JPOQoChnF5Vp&sz=w1000",
+      "altText": "alt"
+    },
+    "voices": {
+      "suzanne": {
+        "full": [
+          {
+            "subsectionTitle": "Equity",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Research",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Problem",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Solution",
+            "subsectionText": "TODO"
+          }
+        ],
+        "plainLanguage": [
+          {
+            "subsectionTitle": "Access Makes Education Fair",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult?",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult for Teachers??",
+            "subsectionText": "TODO"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "id",
+    "title": "title",
+    "image": {
+      "path": "https://drive.google.com/thumbnail?id=1Z9ZQNXnP55ydapyZWdkl5111euEggQ2r&sz=w1000",
+      "altText": "alt"
+    },
+    "voices": {
+      "suzanne": {
+        "full": [
+          {
+            "subsectionTitle": "Equity",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Research",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Problem",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Solution",
+            "subsectionText": "TODO"
+          }
+        ],
+        "plainLanguage": [
+          {
+            "subsectionTitle": "Access Makes Education Fair",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult?",
+            "subsectionText": "TODO"
+          },
+          {
+            "subsectionTitle": "Why is Access Difficult for Teachers??",
+            "subsectionText": "TODO"
           }
         ]
       }

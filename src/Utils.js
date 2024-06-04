@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const MAX_SITE_WIDTH = '40rem'
+export const MAX_SITE_WIDTH = '70rem'
 export const VERTICAL_SECTION_PADDING = '3rem'
 export const HORIZONTAL_SECTION_PADDING = '2rem'
 
