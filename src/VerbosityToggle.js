@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { COLOR, SHADOW } from 'Utils'
 
 const GIST_UNSELECTED_STYLE = `
-  background-color: ${COLOR.neutral100};
+  background-color: white;
   color: ${COLOR.neutral600};
 `
 
