@@ -2,16 +2,20 @@ import { useCallback } from 'react'
 import styled from 'styled-components'
 import { VoiceSelector } from 'VoiceSelector'
 import { VerbosityToggle } from 'VerbosityToggle'
+import { COLOR } from 'Utils'
 
 const ContentTitle = styled.h1`
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 1rem;
+  color: ${COLOR.neutral700};
 `
 
 const ContentHeader = styled.h2`
   margin-bottom: 1rem;
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: ${COLOR.primary700};
 `
 
 const ContentText = styled.p`
@@ -46,7 +50,7 @@ const ContentImage = styled.img`
 
 const ContentControlsContainer = styled.div`
   display: flex;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 `
 
 export const MainContentWithArticle = ({
@@ -97,8 +101,12 @@ export const MainContentWithArticle = ({
           role="region"
           aria-label="Content Toolbar"
         >
-          <VoiceSelector chooseVoice={chooseVoice} />
+          <VoiceSelector
+            chosenVoice={contentVoice}
+            chooseVoice={chooseVoice}
+          />
           <VerbosityToggle
+            contentVerbosity={contentVerbosity}
             togglePlainLanguage={togglePlainLanguage}
           />
         </ContentControlsContainer>
