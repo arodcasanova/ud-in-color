@@ -1,4 +1,4 @@
-import { useEffect } from 'react'
+import { useEffect, useCallback } from 'react'
 import styled from 'styled-components'
 
 const HeaderWithShadow = styled.header`
@@ -13,40 +13,49 @@ const NavWithHorizontalLayoutAndNarrowPadding = styled.nav`
 `
 
 const boundWithin = ({ value, min, max }) => {
-  const greaterThanMin = Math.max(min, value)
-  const greaterThanMinAndLessThanMax = Math.min(max, greaterThanMin)
-  return greaterThanMinAndLessThanMax
+  const atLeastMin = Math.max(min, value)
+  const atLeastMinAtMostMax = Math.min(max, atLeastMin)
+  return atLeastMinAtMostMax
 }
 
 export const HeaderWithContentControls = ({
   maxContentPosition,
   setContentIndex,
 }) => {
-  const resetContentPosition = () =>
-    setContentIndex((prev) => ({
-      ...prev,
-      position: 0,
-    }))
+  const resetContentPosition = useCallback(
+    () =>
+      setContentIndex((prev) => ({
+        ...prev,
+        position: 0,
+      })),
+    [setContentIndex]
+  )
 
-  const incrementContentPosition = () =>
-    setContentIndex((prev) => ({
-      ...prev,
-      position: boundWithin({
-        value: prev.position + 1,
-        min: 0,
-        max: maxContentPosition - 1,
-      }),
-    }))
+  const incrementContentPosition = useCallback(
+    () =>
+      setContentIndex((prev) => ({
+        ...prev,
+        position: boundWithin({
+          value: prev.position + 1,
+          min: 0,
+          max: maxContentPosition - 1,
+        }),
+      })),
+    [setContentIndex, maxContentPosition]
+  )
 
-  const decrementContentPosition = () =>
-    setContentIndex((prev) => ({
-      ...prev,
-      position: boundWithin({
-        value: prev.position - 1,
-        min: 0,
-        max: maxContentPosition - 1,
-      }),
-    }))
+  const decrementContentPosition = useCallback(
+    () =>
+      setContentIndex((prev) => ({
+        ...prev,
+        position: boundWithin({
+          value: prev.position - 1,
+          min: 0,
+          max: maxContentPosition - 1,
+        }),
+      })),
+    [setContentIndex, maxContentPosition]
+  )
 
   // keyboard control
   useEffect(() => {
@@ -68,7 +77,7 @@ export const HeaderWithContentControls = ({
     return () => {
       window.removeEventListener('keydown', handleKeyDown)
     }
-  }, [])
+  }, [decrementContentPosition, incrementContentPosition])
 
   return (
     <HeaderWithShadow>
