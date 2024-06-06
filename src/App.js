@@ -37,6 +37,7 @@ const App = () => {
   return (
     <BoundedCenteringContainer>
       <HeaderWithContentControls
+        contentPosition={contentIndex.position}
         maxContentPosition={MAX_CONTENT_POSITION}
         setContentIndex={setContentIndex}
       />
