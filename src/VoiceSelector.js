@@ -45,7 +45,9 @@ export const VoiceSelector = ({
   chooseVoice,
 }) => {
   return (
-    <SelectorContainer aria-label="VoiceSelector">
+    <SelectorContainer
+      aria-label={`Voice Selector: ${chosenVoice} chosen`}
+    >
       <VoiceButton
         aria-label="Choose Suzanne"
         background={suzanne}

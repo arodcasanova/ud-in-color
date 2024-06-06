@@ -31,6 +31,7 @@ export const VerbosityToggle = ({
 }) => {
   return (
     <ToggleContainer
+      aria-label={`verbosity toggle: ${contentVerbosity} chosen`}
       verbosity={contentVerbosity}
       onClick={togglePlainLanguage}
     />
