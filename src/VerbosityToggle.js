@@ -1,28 +1,29 @@
 import styled from 'styled-components'
 import { COLOR, SHADOW } from 'Utils'
-
-const GIST_UNSELECTED_STYLE = `
-  background-color: white;
-  color: ${COLOR.neutral600};
-`
-
-const GIST_SELECTED_STYLE = `
-  background-color: ${COLOR.primary100};
-  color: ${COLOR.primary700};
-`
+import bookPicked from 'images/book-pick.svg'
+import pagePicked from 'images/page-pick.svg'
+import bookWide from 'images/book-pick-wide.svg'
+import pageWide from 'images/page-pick-wide.svg'
 
 const ToggleContainer = styled.button`
-  padding: 1rem;
+  display: flex;
+  align-items: center;
+  width: 6rem;
+  border-radius: 8px;
   box-shadow: ${SHADOW.medium};
   border-radius: 8px;
-  ${({ verbosity }) =>
-    verbosity === 'full'
-      ? GIST_UNSELECTED_STYLE
-      : GIST_SELECTED_STYLE};
-  transition: color 0.3s ease-in-out;
+  background-image: url(${({ verbosity }) =>
+    verbosity === 'full' ? bookWide : pageWide});
+  background-size: 62%;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+
+  transition: background-image 0.3s ease-in-out;
+  transition: border 0.1s ease-in-out;
 
   &:hover {
-    background-color: ${COLOR.primary100};
+    border: 2px solid ${COLOR.primary300};
   }
 `
 
@@ -34,8 +35,6 @@ export const VerbosityToggle = ({
     <ToggleContainer
       verbosity={contentVerbosity}
       onClick={togglePlainLanguage}
-    >
-      toggle plain language
-    </ToggleContainer>
+    />
   )
 }
