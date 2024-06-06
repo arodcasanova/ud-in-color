@@ -1,7 +1,5 @@
 import styled from 'styled-components'
 import { COLOR, SHADOW } from 'Utils'
-import bookPicked from 'images/book-pick.svg'
-import pagePicked from 'images/page-pick.svg'
 import bookWide from 'images/book-pick-wide.svg'
 import pageWide from 'images/page-pick-wide.svg'
 
